@@ -1,4 +1,4 @@
-#!/bin/node
+#!/usr/bin/env node
 var shell = require('shelljs')
 shell.exec('pwd')
 shell.ls('./').forEach(item => {
